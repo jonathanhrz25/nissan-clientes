@@ -56,13 +56,13 @@ if (isset($_SESSION['user_id'])) {
   <br> Usuario:
   <?= $user['email']; ?>
   <br>Esta seguro de que quiere cerrar sesion<br>
-  <a href="logoutHostess.php">Cerrar Sesion</a>
+  <a href="https://jonathanhrz25.github.io/nissan-clientes/logoutHostess.php">Cerrar Sesion</a>
 
 <?php else: ?>
   <h1>Por favor ingresa o regístrate</h1>
 
-  <a href="loginHostess.php">Entrar</a> o
-  <a href="signupHostess.php">Registrate</a>
+  <a href="https://jonathanhrz25.github.io/nissan-clientes/loginHostess.php">Entrar</a> o
+  <a href="https://jonathanhrz25.github.io/nissan-clientes/signupHostess.php">Registrate</a>
 <?php endif; ?>
 
 </html>
