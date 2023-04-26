@@ -3,7 +3,7 @@
 session_start();
 
 if (isset($_SESSION['user_id'])) {
-  header('Location: /nissan-clientes');
+  header('Location: /https://jonathanhrz25.github.io/nissan-clientes/');
 }
 require 'connect.php';
 
